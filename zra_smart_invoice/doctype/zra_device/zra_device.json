@@ -1,0 +1,15 @@
+
+{
+ "doctype": "DocType",
+ "name": "ZRA Device",
+ "module": "ZRA Smart Invoice",
+ "fields": [
+  {"fieldname": "tpin", "fieldtype": "Data", "label": "TPIN"},
+  {"fieldname": "bhf_id", "fieldtype": "Data", "label": "Branch ID"},
+  {"fieldname": "dvc_serial_no", "fieldtype": "Data", "label": "Device Serial Number"},
+  {"fieldname": "intrl_key", "fieldtype": "Data", "label": "Internal Key"},
+  {"fieldname": "sign_key", "fieldtype": "Data", "label": "Sign Key"},
+  {"fieldname": "cmc_key", "fieldtype": "Data", "label": "Communication Key"}
+ ],
+ "permissions": [{"role": "System Manager", "read": 1, "write": 1, "create": 1}]
+}
